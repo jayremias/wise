@@ -4,7 +4,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import { toast } from 'react-nextjs-toast';
 
-import { Container, Content, Background } from './styles';
+import { Container, Content, Background } from '../styles/pages/index';
 
 import Input from '../components/Input';
 import Button from '../components/Button';

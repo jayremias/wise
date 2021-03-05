@@ -1,12 +1,3 @@
-const withImages = require('next-images')
+const withImages = require('next-images');
 
 module.exports = withImages();
-module.exports = {
-  typescript: {
-    // !! WARN !!
-    // Dangerously allow production builds to successfully complete even if
-    // your project has type errors.
-    // !! WARN !!s
-    ignoreBuildErrors: true
-  }
-}
